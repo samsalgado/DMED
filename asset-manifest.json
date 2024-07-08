@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d200bd5.css",
-    "main.js": "/static/js/main.c0b82874.js",
+    "main.css": "/static/css/main.40d34abf.css",
+    "main.js": "/static/js/main.3b86e843.js",
     "static/js/787.10803c13.chunk.js": "/static/js/787.10803c13.chunk.js",
     "static/media/prevent-wellness.png": "/static/media/prevent-wellness.717711f6275a45280ce7.png",
     "static/media/peroxidase.png": "/static/media/peroxidase.f1905c0ab4564f8d08ac.png",
@@ -16,6 +16,7 @@
     "static/media/homeopathy.png": "/static/media/homeopathy.2256a0149640feb9dccc.png",
     "static/media/acupuncture.png": "/static/media/acupuncture.b7fac48b9e798f822e7e.png",
     "static/media/nutrition.png": "/static/media/nutrition.2602653bce87fa3f9578.png",
+    "static/media/detoxpg.png": "/static/media/detoxpg.9b91cdbc2755fc8ea954.png",
     "static/media/TELE.png": "/static/media/TELE.b86f6dd11aa85b4fb983.png",
     "static/media/healthcoach.png": "/static/media/healthcoach.2895506e1dfb8d94e593.png",
     "static/media/fi.png": "/static/media/fi.442c1fa60574cb1d7415.png",
@@ -118,7 +119,6 @@
     "static/media/humulus lupulus.png": "/static/media/humulus lupulus.7401cf880d436960f343.png",
     "static/media/ophrys apifera.png": "/static/media/ophrys apifera.76a9510e47568c24dbe1.png",
     "static/media/abiesbalsamea.png": "/static/media/abiesbalsamea.a95b221d59f66baa4f00.png",
-    "static/media/c.png": "/static/media/c.f2580fda079ae4ff7b82.png",
     "static/media/ammivisnaga.png": "/static/media/ammivisnaga.fdb7302444dfa5f77ea5.png",
     "static/media/polyphenols.png": "/static/media/polyphenols.dbb580b7b54240cedf4d.png",
     "static/media/bixaorellana.png": "/static/media/bixaorellana.c4b0c4f58b24b737c181.png",
@@ -162,15 +162,14 @@
     "static/media/stem-type.jpg": "/static/media/stem-type.59f3be10bb24908e0c07.jpg",
     "static/media/bnboutline.png": "/static/media/bnboutline.3ddb614e4b80066787b7.png",
     "static/media/LOGO.png": "/static/media/LOGO.e87ce58d2e3a2cd8f154.png",
-    "static/media/coutline.PNG": "/static/media/coutline.f379d3c00dc9809878be.PNG",
     "static/media/btcoutline.png": "/static/media/btcoutline.741f44b89898f2db135f.png",
     "index.html": "/index.html",
-    "main.9d200bd5.css.map": "/static/css/main.9d200bd5.css.map",
-    "main.c0b82874.js.map": "/static/js/main.c0b82874.js.map",
+    "main.40d34abf.css.map": "/static/css/main.40d34abf.css.map",
+    "main.3b86e843.js.map": "/static/js/main.3b86e843.js.map",
     "787.10803c13.chunk.js.map": "/static/js/787.10803c13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d200bd5.css",
-    "static/js/main.c0b82874.js"
+    "static/css/main.40d34abf.css",
+    "static/js/main.3b86e843.js"
   ]
 }
