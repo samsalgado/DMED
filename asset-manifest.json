@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ec5a0b3.css",
-    "main.js": "/static/js/main.3b86e843.js",
+    "main.css": "/static/css/main.9eff81a9.css",
+    "main.js": "/static/js/main.424292e4.js",
     "static/js/787.10803c13.chunk.js": "/static/js/787.10803c13.chunk.js",
     "static/media/prevent-wellness.png": "/static/media/prevent-wellness.717711f6275a45280ce7.png",
     "static/media/peroxidase.png": "/static/media/peroxidase.f1905c0ab4564f8d08ac.png",
@@ -164,12 +164,12 @@
     "static/media/LOGO.png": "/static/media/LOGO.e87ce58d2e3a2cd8f154.png",
     "static/media/btcoutline.png": "/static/media/btcoutline.741f44b89898f2db135f.png",
     "index.html": "/index.html",
-    "main.3ec5a0b3.css.map": "/static/css/main.3ec5a0b3.css.map",
-    "main.3b86e843.js.map": "/static/js/main.3b86e843.js.map",
+    "main.9eff81a9.css.map": "/static/css/main.9eff81a9.css.map",
+    "main.424292e4.js.map": "/static/js/main.424292e4.js.map",
     "787.10803c13.chunk.js.map": "/static/js/787.10803c13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ec5a0b3.css",
-    "static/js/main.3b86e843.js"
+    "static/css/main.9eff81a9.css",
+    "static/js/main.424292e4.js"
   ]
 }
