@@ -16,11 +16,11 @@ const Stem = () => {
         <table className="collapsibles-table">
           <tbody>
             <Collapsible trigger={<th className="collapsible-title">Stem Cell Therapy Explained</th>}>
-                    <img />
+                    <img alt='' />
                     <img className='gridima' src={whatisastemcell} alt='What is a stem cell' />
                     <img className='gridimag' src={stemtype} alt='Stem cell types' />
                     <img className='gridimag' src={whystemcell} alt='Why stem cell' />
-            <img />
+            <img alt='' />
             </Collapsible>
           </tbody>
         </table>

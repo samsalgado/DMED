@@ -1,9 +1,6 @@
 import '../App.css';
-
 import Topbar from './topbar';
-import Info3 from '../info/info3';
 import Footer from '../footer';
-import REACT from "../pics/REACT.png";
 import Chiro from '../info/chiro';
 import { Helmet } from 'react-helmet'; // Import Helmet
 export function Chiropractic() {

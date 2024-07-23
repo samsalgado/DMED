@@ -1,7 +1,7 @@
 import  useIndexedDB  from 'use-indexeddb';
 
 export const useRemedies = (dbConfig) => {
-  const { add, get, getAll, update, delete: deleteById } = useIndexedDB(dbConfig);
+  const { add, get, getAll, delete: deleteById } = useIndexedDB(dbConfig);
 
   const addRemedy = async (newRemedy) => {
     await add('remedies', newRemedy);

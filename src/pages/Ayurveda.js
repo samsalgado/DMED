@@ -1,6 +1,5 @@
 import '../App.css';
 import Topbar from './topbar';
-import Info from '../info/info';
 import Footer from '../footer';
 import Ayurvedaa from '../info/ayurveda';
 import { Helmet } from 'react-helmet'; // Import Helmet

@@ -2,7 +2,6 @@ import "../App.css";
 import Topbar from "./topbar";
 import Footer from '../footer';
 import Homeo from "../info/homeopathypg";
-import LOGO from '../images copy/LOGO.png';
 import { Helmet } from 'react-helmet'; // Import Helmet
 export function Homeopathy() {
     return( 

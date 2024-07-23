@@ -20,7 +20,7 @@ const Info1 = () => {
                 <img className='gridimag' src={spleen} alt='Spleen' />
                 <img className='gridimage' src={acutreats} alt='Acupuncture Treats' />
                 <img className='gridimag' src={acuchart} alt='Ac ' />
-            <img />
+            <img alt='' />
             
             </Collapsible>
           </tbody>

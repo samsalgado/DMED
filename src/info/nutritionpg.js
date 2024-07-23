@@ -1,14 +1,6 @@
 import React from 'react'
-import { useState } from 'react'; // For managing collapsible state
 import "../App.css";
 import Collapsible from 'react-collapsible';
-import { Ayurveda } from '../pages/Ayurveda';
-import ayurveda from "../images copy/ayurveda-science.png";
-import SPACE from "../images copy/SPACE.png";
-import AIR from "../images copy/AIR.png";
-import fire from "../images copy/fi.png";
-import AGUA from "../images copy/AGUA.png";
-import EARTH from "../images copy/EARTH.png";
 import obese from '../images copy/obese.png';
 import drsebi from '../images copy/drsebi.jpeg';
 const Nutritionpage = () => {
@@ -23,10 +15,10 @@ const Nutritionpage = () => {
           <tbody> 
           <Collapsible trigger={<th className="collapsible-title">Obesity Facts</th>}>
               <tr>
-                <img />
+                <img alt='' />
               <img className='gridimage' src={obese} alt='' />
               <img className='gridimag' src={drsebi} alt='' />
-              <img />
+              <img alt='' />
               </tr>
             
             </Collapsible>

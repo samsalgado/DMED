@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog'; // Import from Dialog.js
-import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({

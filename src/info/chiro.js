@@ -1,15 +1,7 @@
 import React from 'react'
 import "./chiro.css";
 import Collapsible from 'react-collapsible';
-import DETOXIMG from '../images copy/detox.png';
-import turmeric from '../images copy/tumeric.png';
-import ginger from '../images copy/gin.png';
-import aloevera from '../images copy/aloevera.png';
-import broccoli from '../images copy/broc.png';
-import gf from '../images copy/gf.png';
-import lemon from '../images copy/lemon.png';
 import stats from '../images copy/stats.jpg';
-import pills from '../images copy/pills.png';
 import chirotreat from '../images copy/chirotreats.png';
 import chiropractorstats from '../images copy/chiropractor-stats.png';
 const Chiro = () => {
@@ -24,10 +16,10 @@ const Chiro = () => {
           <tbody> 
           <Collapsible trigger={<th className="collapsible-title">Benefits of Chiropractic</th>}>
               <tr>
-                <img />
+                <img alt='' />
                 <img className='gridimage' src={chiropractorstats} alt='' />        
                 <img className='gridimage' src={chirotreat} alt='' />
-              <img />
+              <img alt=''/>
               </tr>
 
             </Collapsible>

@@ -1,6 +1,4 @@
 import React from 'react'
-import TELE from '../images copy/TELE.png'
-import { useState } from 'react'; // For managing collapsible state
 import "../App.css";
 import Collapsible from 'react-collapsible';
 import graphic from '../images copy/chelation101.png';
@@ -21,11 +19,11 @@ const Pgchelation = () => {
         <tbody> 
         <Collapsible trigger={<th className="collapsible-title">Chelation 101 (Heavy Metal Detox)</th>}>
             <tr>
-              <img />
+              <img alt='' />
             <img className='gridimag' src={graphic} alt='' />
             <img className='gridimag' src={chelationgraphic} alt='' />
             <img className='dual' src={chelationbenefits} alt='' />
-            <img />
+            <img alt='' />
             </tr>
           
           </Collapsible>

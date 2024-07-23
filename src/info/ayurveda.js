@@ -1,8 +1,6 @@
 import React from 'react'
-import { useState } from 'react'; // For managing collapsible state
 import "../App.css";
 import Collapsible from 'react-collapsible';
-import { Ayurveda } from '../pages/Ayurveda';
 import ayurveda from "../images copy/ayurveda-science.png";
 import SPACE from "../images copy/SPACE.png";
 import AIR from "../images copy/AIR.png";
@@ -27,9 +25,8 @@ const Ayurvedaa = () => {
                 <img className='gridimage' src={fire} alt='' />
                 <img className='gridimage' src={AGUA} alt='' />
                 <img className='gridimage' src={EARTH} alt='' />
-            <img />
+            <img alt='' />
             </Collapsible>
-
           </tbody>
         </table>
        

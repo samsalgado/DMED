@@ -1,6 +1,4 @@
 import React from 'react'
-import TELE from '../images copy/TELE.png'
-import { useState } from 'react'; // For managing collapsible state
 import preventchart from '../images copy/prevemt.png';
 import Collapsible from 'react-collapsible';
 import "./prevent.css";

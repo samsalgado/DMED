@@ -9,9 +9,7 @@ const REACT_APP_STRIPE_PUBLISHABLE_KEY = 'pk_live_51PTcBaLMNjybuRkpvJ5iJ6WUESTrD
 const AddtoCart = () => {
   const [isOpen, setIsOpen] = useState(true); // Initial state: Open
 
-  const handleCloseModal = () => {
-    setIsOpen(false);
-  };
+ 
 
   const [name, setName] = useState('');
   const [practice, setPractice] = useState('');
@@ -26,12 +24,7 @@ const AddtoCart = () => {
 
     // Get a reference to the CardElement
     const cardElement = stripe.elements().getElement(CardElement);
-    const userData = {
-      name,
-      practice,
-      paymentType: bitcoinAddress ? 'Bitcoin' : 'Card',
-      ...(bitcoinAddress && { bitcoinAddress }), // Include address if provided
-    };
+  
     // Create a PaymentIntent on your server (explained later)
     const paymentIntentResponse = await fetch('/create-payment-intent', {
       method: 'POST',

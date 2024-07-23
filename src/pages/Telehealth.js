@@ -3,7 +3,6 @@ import Topbar from './topbar';
 import Directory from '../info/telelist';
 import Footer from '../footer';
 import Info7 from '../info/info7';
-import Collapsible from 'react-collapsible';
 import { Helmet } from 'react-helmet'; // Import Helmet
 export function Telehealth() {
     return (

@@ -3,9 +3,6 @@ import '../App.css';
 import Description from "../info/description";
 import Plants from "./Plants";
 const Apothecary = () => {
-    const [columns, setColumns] = useState(2); // Optional state for dynamic column count
-    const [isLoading, setIsLoading] = useState(false); // Track loading state
-    const [error, setError] = useState(null); // Track potential error
   
     //Price: BTC
     //Medical Rating: 
@@ -770,6 +767,7 @@ const Apothecary = () => {
         }
     ]
   );
+  console.log(setPlants);
   // Function to handle displaying plants in rows (3 columns)
   return (
     
