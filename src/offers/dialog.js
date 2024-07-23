@@ -1,49 +1,21 @@
+// CustomizedDialogs.js (modified)
 import * as React from 'react';
 import { useState } from 'react';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
-import Dialog from '@mui/material/Dialog';
+import Dialog from '@mui/material/Dialog'; // Import from Dialog.js
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
+
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
-  '& .MuiDialogContent-root': {
-    padding: theme.spacing(2),
-  },
-  '& .MuiDialogActions-root': {
-    padding: theme.spacing(1),
-  },
+  // ... dialog styles
 }));
 
-
-
 const BootstrapDialogTitle = (props) => {
-  const { children, onClose, ...other } = props;
- 
-  return (
-    <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
-      {children}
-      
-      {onClose ? (
-        <IconButton
-          aria-label="close"
-          onClick={onClose}
-          sx={{
-            position: 'absolute',
-            right: 8,
-            top: 8,
-            color: (theme) => theme.palette.grey[500],
-          }}
-        >
-          <CloseIcon />
-        </IconButton>
-      ) : null}
-    </DialogTitle>
-  );
+  // ... dialog title logic
 };
 
-export default function CustomizedDialogs({children}) {
+export default function CustomizedDialogs({ children }) {
   const [open, setOpen] = useState(false);
   const handleClickOpen = () => {
     setOpen(true);
@@ -53,17 +25,13 @@ export default function CustomizedDialogs({children}) {
   };
 
   return (
-    
     <div className='buton'>
-      <Button style={{marginInlineStart:10,marginTop:50, alignItems:'right', color:'black', textDecoration:'solid'}} variant="outlined"  onClick={handleClickOpen}>
-        Add to Cart
-      </Button>
+      <Button onClick={handleClickOpen}>Add to Cart</Button>
       <BootstrapDialog
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"
         open={open}
       >
-      
         <BootstrapDialogTitle style={{textAlign:"center"}} id="customized-dialog-title" onClose={handleClose}>
           Subscription: Initial Payment: 0.0017 BTC ($100)
         </BootstrapDialogTitle>
@@ -72,6 +40,8 @@ export default function CustomizedDialogs({children}) {
         </DialogContent>
       </BootstrapDialog>
     </div>
-    
   );
 }
+
+// Dialog.js (assuming it doesn't export a default component)
+// ... your Dialog component implementation

@@ -1,6 +1,5 @@
 import '../App.css';
 import Info1 from '../info/info1';
-import outline from '../outlines/btcoutline.png';
 import Topbar from './topbar';
 import Footer from '../footer';
 import { Helmet } from 'react-helmet'; // Import Helmet

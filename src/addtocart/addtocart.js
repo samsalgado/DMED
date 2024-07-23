@@ -2,15 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import { CardElement } from '@stripe/react-stripe-js';
-
+import '../App.css';
 // Replace with your actual Stripe publishable key (from environment variables)
 const REACT_APP_STRIPE_PUBLISHABLE_KEY = 'pk_live_51PTcBaLMNjybuRkpvJ5iJ6WUESTrDzxro9uRUL16zbXtIkw3cXgyfo6bkhVGOXZV71sYEQswQ7j6X9gdIlc7QAQO00g4EqxImR';
 
 const AddtoCart = () => {
-const [name, setName] = useState('');
-const [practice, setPractice] = useState('');
-const [bitcoinAddress, setBitcoinAddress] = useState('');
-const [stripePromise, setStripePromise] = useState(null);
+  const [isOpen, setIsOpen] = useState(true); // Initial state: Open
+
+  const handleCloseModal = () => {
+    setIsOpen(false);
+  };
+
+  const [name, setName] = useState('');
+  const [practice, setPractice] = useState('');
+  const [bitcoinAddress, setBitcoinAddress] = useState('');
+  const [stripePromise, setStripePromise] = useState(null);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -64,9 +70,13 @@ const [stripePromise, setStripePromise] = useState(null);
   }, []);
 
   return (
-    <div>
+    <div className={isOpen ? '' : 'hidden'}> {/* Conditional rendering based on isOpen */}
       {/* Replace with your product information and quantity selection */}
+
       <h4>Join the Coalition</h4>
+      <p>
+      Bitcoin Address:36Nqp5XegC8Zf5RFr8fk7YchGSt66pA6Pr 
+    </p>
       <p>Initial Payment of $100 [0.0017 BTC] (BTC Preferred). Coalition members get access to Databases, Admin privileges in both Applications, and Telehealth Directory. Buy now and join the Coalition, a subscription fee and price increase is coming soon!</p>
       {/* Consider adding a price display here */}
       {stripePromise && (

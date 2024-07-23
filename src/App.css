@@ -207,6 +207,10 @@ text-indent: 20px;
   text-align: center;
   align-self:center;
 }
+.hidden {
+  display: none;
+  opacity: 0; /* Ensures no leftover content opacity */
+}
 .preventpic {
   margin-top: 5px;
   margin-left: 45px;

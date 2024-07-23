@@ -1,10 +1,7 @@
 import "../App.css";
 import Topbar from "./topbar";
-import Offer4 from "../offers/offer4";
 import Footer from '../footer';
 import Homeo from "../info/homeopathypg";
-import outline from "../outlines/bnboutline.png"
-import BSC from '../pics/bsc.png';
 import LOGO from '../images copy/LOGO.png';
 import { Helmet } from 'react-helmet'; // Import Helmet
 export function Homeopathy() {
