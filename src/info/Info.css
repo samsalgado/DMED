@@ -1,0 +1,51 @@
+.container {
+  width: 100%; /* Ensure full width on all devices */
+  max-width: 700px; /* Limit width on larger screens */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.title-container {
+  text-align: center; /* Center headings on mobile */
+}
+
+table {
+  width: 100%; /* Ensure table fills container width */
+}
+
+.collapsible-title {
+  font-size: 1rem; /* Use rem for better scaling */
+}
+
+.pr {
+  font-size: 14px; /* Adjust paragraph font size */
+  line-height: 1.5; /* Increase line-height for better spacing */
+}
+
+.pr p {
+  margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+.pr h4 {
+  font-size: 16px; /* Adjust heading size */
+  margin-top: 15px; /* Add top margin for separation */
+}
+
+.TELE {
+  max-width: 90%; /* Set max-width to 100% for mobile */
+  margin: 0 auto; /* Center image horizontally */
+  height: auto; /* Allow image to adjust height on mobile */
+}
+
+@media (max-width: 768px) {
+  /* Existing mobile-specific styles */
+  .container {
+    padding: 10px; /* Add padding for better spacing */
+  }
+}
+
+/* Additional Media Query for Image Optimization */
+@media only screen and (max-width: 768px) {
+  .TELE {
+    object-fit: contain; /* Scales image to fit container while maintaining aspect ratio */
+  }
+}

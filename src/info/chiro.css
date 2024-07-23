@@ -1,0 +1,66 @@
+/* Chiro.css */
+
+.container {
+    width: 100%; /* Full width on mobile */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 1rem; /* Add padding for spacing */
+}
+
+.pik1{
+    max-width: 50%; /* Adjust as needed */
+    height: auto;
+}
+table {
+    /* Ensure table elements are responsive (optional) */
+    width: 100%; /* Or use flexbox for more control */
+}
+.gridimage {
+    /* Set a consistent width for all images */
+    max-width: 450px;  /* Adjust width as desired */
+    height: auto;
+    object-fit: cover;  /* Maintain aspect ratio */
+    margin: 5px;
+    top: 20px;
+  }
+.collapsibles-table th,
+.collapsibles-table td {
+    /* Adjust font sizes and padding for better mobile experience */
+    font-size: 0.9em; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+}
+
+.FACTS {
+    /* Set a max-width for the stats image */
+    max-width: 100%;
+}
+
+/* Media Queries for Mobile Tweaks (Optional): */
+
+@media (max-width: 768px) {
+    .par {
+        font-size: 14px; /* Adjusted font size for paragraphs */
+        line-height: 1.5; /* Improved line-height for readability */
+        /* Uncomment if necessary */
+        /* white-space: nowrap; */
+    }
+
+    .par p {
+        max-width: 80%; /* Limit paragraph width for better wrapping */
+    }
+
+    .collapsibles-table {
+        display: flex; /* Flexbox for responsive table */
+        flex-wrap: wrap; /* Wrap columns on smaller screens */
+    }
+
+    .collapsibles-table th,
+    .collapsibles-table td {
+        font-size: 0.8em; /* Further reduced font size */
+        padding: 5px; /* Adjusted padding for better spacing */
+    }
+
+    .pic1 {
+        max-width: 80px; /* Reduced image width for mobile */
+        margin: 0 1rem; /* Added margin between images */
+    }
+}
