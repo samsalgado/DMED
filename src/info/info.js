@@ -1,6 +1,5 @@
 import React from 'react'
 import TELE from '../images copy/TELE.png'
-import { useState } from 'react'; // For managing collapsible state
 import "./Info.css";
 import Collapsible from 'react-collapsible';
 const Info = () => {

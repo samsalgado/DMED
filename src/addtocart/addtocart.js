@@ -79,7 +79,7 @@ const AddtoCart = () => {
             <input type="text" placeholder="Medical Practice" value={practice} onChange={(e) => setPractice(e.target.value)} />
             <input type="text" placeholder="Bitcoin Address (Optional)" value={bitcoinAddress} onChange={(e) => setBitcoinAddress(e.target.value)} />
             <CardElement options={{}} />
-            <button type="submit">Pay Now</button>
+            <button {...setIsOpen} type="submit">Pay Now</button>
           </form>
         </Elements>
       )}
