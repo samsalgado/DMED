@@ -24,7 +24,7 @@ const Topbar = () => {
             </Nav.Link>
             <Nav.Link href="/prevent">
               Preventive Medicine
-              <img className='preventpic' src={Treatment.prevent} alt="" />
+              <img className='coursepic' src={Treatment.prevent} alt="" />
             </Nav.Link>
             <Nav.Link href="/detox">Detox
               <img className='coursepic' src={Treatment.detox} alt="" />
