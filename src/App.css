@@ -533,12 +533,3 @@ input[type=submit]:hover {
     grid-gap: 25px; /* Adjust gap between grid items */
   }
 }
-@media (max-width: 768px) {
-  .topbar {
-    position: fixed;
-    top: 0; /* Adjust top position as needed */
-    left: 0; /* Adjust left position as needed */
-    width: 100%; /* Set width to 100% */
-    z-index: 100; /* Ensure top bar stays on top of other content */
-  }
-}
