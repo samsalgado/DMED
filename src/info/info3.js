@@ -20,15 +20,19 @@ const Info3 = () => {
           <tbody> 
           <Collapsible trigger={<th className="collapsible-title">Best Fruits and Vegetables for Detox</th>}>
                 <img className='gridimage' src={turmeric} alt='' />
+                <td>  Turmeric: Anti-inflammatory properties - rich in antioxidants, vitamins, and nutrients
+                </td>
                 <img className='gridimage' src={ginger} alt='' />
+                <td>Ginger: Rich in antioxidants, cleanses the body and helps with digestion</td>
                 <img className='gridimage' src={aloevera} alt='' />
+                <td>Aloe Vera: Soothes inflammation, cleanses the colon</td>
                 <img className='gridimage' src={broccoli} alt='' />
-          
+                <td>Broccoli: High in fiber, rich in Vitamin A,C,K and antioxidants</td>
              <img className='gridimage' src={gf} alt='' />
-
+                <td>Grapefruit: High in antioxidant Vitamin C, boosts immune system</td>
              <img className='gridimage' src={lemon} alt='' />
 
-              <td>Turmeric, Ginger, Aloe Vera, Broccoli, Grapefruit, Lemon</td>
+              <td>Lemon: High in antioxidant Vitamin C. Cleanses liver, helps digestion and aids in weight management</td>
 
             </Collapsible>
             <Collapsible trigger={<th className="collapsible-title">Detoxification Protocols</th>}>
