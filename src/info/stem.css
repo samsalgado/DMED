@@ -25,11 +25,11 @@
 }
 
 .AC {
-  width: 100%; /* Ensure images fill their container */
-  max-width: 400px; /* Adjust maximum width of AC image */
+  width: 80%;
+  max-width: 350px; /* Adjust maximum width of AC image */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Correctly handle inline-block display */
-  margin: 20px auto 10px; /* Adjust margin for spacing around image */
+  margin: 5px auto 10px; /* Adjust margin for spacing around image */
   /* Consider using other methods for positioning rather than negative margins */
 }
 
@@ -55,8 +55,12 @@
   .gridimag,
   .gridima,
   .gridimage,
-  .AC,
   .CASESTUDY {
     max-width: 90%; /* Ensure images scale down to fit their container on smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .AC {
+    max-width: 80%; /* Adjust max-width for smaller screens */
   }
 }

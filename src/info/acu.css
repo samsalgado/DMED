@@ -48,8 +48,8 @@ img {
 
 /* Optional: Additional styling for the main acupuncture benefits image (if needed) */
 .AC {
-  max-width: 90%; /* Adjust width as needed for .AC class (e.g., 70%, 80%) */
-  left: 20%; /* Adjust left margin as needed for .AC class */
+  max-width: 60%; /* Adjust width as needed for .AC class (e.g., 70%, 80%) */
+  left: 10%; /* Adjust left margin as needed for .AC class */
 }
 
 /* Styles for mobile devices (screen width less than 768px) */
@@ -65,7 +65,7 @@ img {
   }
 
   .AC {
-    width: 90%; /* Adjust main image width for smaller screens */
+    width: 60%; /* Adjust main image width for smaller screens */
     margin: 0 auto 20px; /* Center image and add bottom margin */
   }
     .gridimag {

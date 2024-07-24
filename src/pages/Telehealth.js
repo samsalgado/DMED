@@ -9,6 +9,7 @@ export function Telehealth() {
         <>
                      <Helmet>  {/* Add Helmet component */}
         <title>Telehealth services</title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Connect with healthcare providers virtually! Explore our Telehealth Directory to find a doctor offering online consultations. Learn more about the benefits of telehealth." />
       </Helmet>
 

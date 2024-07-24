@@ -33,10 +33,16 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-  /* Adjust grid for tablets */
+@media (max-width: 768px) {
+  /* Adjust grid for mobile devices */
   .grid {
-    grid-template-columns: repeat(3, 1fr); /* Three columns for tablets */
-    grid-gap: 10px; /* Restore gap between items */
+    grid-template-columns: repeat(1, 1fr); /* Single column for mobile */
+  }
+
+  .gridrow {
+    display: flex; /* Enable flexbox for stacking items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: space-between; /* Distribute space between items */
   }
 }
