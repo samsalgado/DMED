@@ -1,13 +1,20 @@
 import React from 'react'
 import TELE from '../images copy/TELE.png'
 import "./Info.css";
+import { Button } from'react-bootstrap';
+
 import Collapsible from 'react-collapsible';
 const Info = () => {
+  const whitepaperUrl = "https://drive.google.com/file/d/18TjsAeWUop5FVIZzert0GhrXI64HVrQM/view?usp=sharing"; // Update with your actual URL
 
   return (
     
     <div className='container'>
               <h1>Decent Med</h1>
+              <Button  variant="primary" size="sm" href={whitepaperUrl} target="_blank" rel="noopener noreferrer">
+        Read Whitepaper
+      </Button> 
+
       <div className="title-container">
         <table className="collapsibles-table">
           <tbody> 

@@ -14,6 +14,7 @@ import { Chiropractic } from './pages/Chiropractic';
 import { Chelation } from './pages/Chelation';
 import { Telehealth } from './pages/Telehealth';
 import { Apoth } from './pages/Apoth';
+import { Whitepaper } from './pages/Whitepaper';
 function App() {
 
   return( 
@@ -32,7 +33,7 @@ function App() {
     <Route path="/homeopathy" element={<Homeopathy />} />
     <Route path="/telehealth" element={<Telehealth />} />
     <Route path="/apoth" element={<Apoth />} />
-
+    <Route path="/whitepaper" element={<Whitepaper />}/>
 </Routes>
     
   )

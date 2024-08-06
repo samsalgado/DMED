@@ -410,6 +410,12 @@ body {
   height: 140px;
   top: -100px;
 }
+.whitepaper {
+  display:flex;
+  justify-content: flex-end;
+  height: 100px;
+
+}
 .dual {
   max-width: 470px; /* Adjust width as needed */
   height: 250px;

@@ -2,8 +2,12 @@ import '../App.css';
 import Topbar from './topbar';
 import Info from '../info/info';
 import Footer from '../footer';
+import { Button } from 'react-bootstrap';
+
 import { Helmet } from'react-helmet'; // Import Helmet
 export function Home() {
+    const whitepaperUrl = "https://drive.google.com/file/d/18TjsAeWUop5FVIZzert0GhrXI64HVrQM/view?usp=sharing"; // Update with your actual URL
+
     return (
         <>
         <Helmet>  
@@ -14,6 +18,7 @@ export function Home() {
         <header>
         <Topbar />
         </header>
+
             <Info />
        <br></br>
         <footer>
