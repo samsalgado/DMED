@@ -5,8 +5,6 @@ import Footer from '../footer';
 
 import { Helmet } from'react-helmet'; // Import Helmet
 export function Home() {
-    const whitepaperUrl = "https://drive.google.com/file/d/18TjsAeWUop5FVIZzert0GhrXI64HVrQM/view?usp=sharing"; // Update with your actual URL
-
     return (
         <>
         <Helmet>  
