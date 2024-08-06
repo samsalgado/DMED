@@ -2,7 +2,6 @@ import '../App.css';
 import Topbar from './topbar';
 import Info from '../info/info';
 import Footer from '../footer';
-import { Button } from 'react-bootstrap';
 
 import { Helmet } from'react-helmet'; // Import Helmet
 export function Home() {
